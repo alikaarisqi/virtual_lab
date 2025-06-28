@@ -55,4 +55,6 @@ total_kaos = len(kaos)
 total_celana = len(celana)
 total_rumus = total_kaos * total_celana
 
-st.write(f"Banyak kaos tersedia: {total_
+st.write(f"Banyak kaos tersedia: {total_kaos}")
+st.write(f"Banyak celana tersedia: {total_celana}")
+st.write(f"Jumlah kombinasi menurut rumus: {total_rumus}")
